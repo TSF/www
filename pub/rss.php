@@ -1,4 +1,4 @@
-<?
+<?php
 
 include_once "file_listing.php";
 

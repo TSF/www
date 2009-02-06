@@ -26,7 +26,7 @@ border: 1px solid #ccc;
 <h1>Downloads</h1>
 Below you find the different downloads available.<br>
 You can also <a href="rss.php" class="feed">subscribe to our current releases feed</a> to stay informed of new releases.
-<?
+<?php
 
 include_once "file_listing.php";
 
