@@ -1,4 +1,4 @@
-<?
+<?php
 
 function get_dists() {
   $dists = array( "ADL"           => array(),
