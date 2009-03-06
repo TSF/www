@@ -14,7 +14,13 @@ function get_dists() {
     if( ereg("([a-zA-Z0-9]+)-([0-9]+)\.([0-9]+)-([0-9]+)(-[a-z]+)?\.zip", 
 	     $file, $regs) ) {
       if( array_key_exists( $regs[1].$regs[5], $dists ) ) {
-	$dists[$regs[1].$regs[5]][] = $regs[2] .".".$regs[3]."-".$regs[4];
+	$dists[$regs[1].$regs[5]][] = $regs[2] . "." . $regs[3] . "-" .$regs[4];
+      }
+    }
+    if( ereg("([a-zA-Z0-9]+)-([0-9]+)\.([0-9]+)(-[a-z]+)?\.zip", 
+	     $file, $regs) ) {
+      if( array_key_exists( $regs[1].$regs[4], $dists ) ) {
+	$dists[$regs[1].$regs[4]][] = $regs[2] . "." . $regs[3];
       }
     }
   }
@@ -29,18 +35,18 @@ function latest($versions) {
   $build = 0;
   
   foreach( $versions as $version ) {
-    if( ereg( "([0-9]+)\.([0-9]+)-([0-9]+)", $version, $regs ) ) {
+    if( ereg( "([0-9]+)\.([0-9]+)(-([0-9]+))?", $version, $regs ) ) {
       if( $regs[1] > $major ) {
-	$major = $regs[1]; $minor = $regs[2]; $build = $regs[3];
+	$major = $regs[1]; $minor = $regs[2]; $build = $regs[4];
       } elseif( $regs[1] == $major && $regs[2] > $minor ) {
-	$minor = $regs[2]; $build = $regs[3];
-      } elseif( $regs[1] == $major && $regs[2] == $minor && $regs[3] > $build ){
-	$build = $regs[3];
+	$minor = $regs[2]; $build = $regs[4];
+      } elseif( $regs[1] == $major && $regs[2] == $minor && $regs[4] > $build ){
+	$build = $regs[4];
       }
     }
   }
 
-  return $major.'.'.$minor.'-'.$build;
+  return $major.'.'.$minor.( trim($build) != "" ? '-' . $build : "" );
 }
 
 function get_current_dists() {
