@@ -5,8 +5,8 @@
       href="http://thesoftwarefactory.be/pub/rss.php">
 <style>
 .download {
-border: 1px solid #ccc;
-     margin:10px;
+     border: 1px solid #ccc;
+     padding: 10px;
 }
 
 .feed {
