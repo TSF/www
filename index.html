@@ -1,65 +1,166 @@
-<html>
-<head>
+<!DOCTYPE html PUBLIC 
+	  "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+	  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <style type="text/css">
+      <!--
+	  @import url("css/main.css");
+	-->
+    </style>
+    <script type="text/javascript" src="js/utility.js"></script>
+    <script type="text/javascript" src="js/carousel.js"></script>
+    <title>Welcome to TheSoftwareFactory...</title>
+  </head>
 
-</head>
+  <body>
+    <div id="header">
+      <a href="/"><img src="images/Tsf.png" alt="TheSoftwareFactory Logo"/></a>
+      <ul class="nav">
+	<li class=""><a href="wiki/">Public Wiki</a></li>
+	<li class=""><a href="pub/">Downloads</a></li>
+	<li class=""><a href="http://git.thesoftwarefactory.be">Git Repositories</a></li>
+	<li class=""><a href="http://test.thesoftwarefactory.be">Test Site</a></li>
+      </ul>
+      
+      <div id="search">
+	<form action="/wiki/Special:Search" method="get">
+	  <div>
+	    <label for="searchbox">Search TSF
+	      <input type="text" name="search" id="searchbox"/>
+	    </label>
+	  </div>
+	</form>
+      </div>
+    </div>
 
-<body>
-<img src="images/Tsf.png" align="left"/>
+    <div id="carousel">
+      <div id="tabs">
+	<img src="images/adl_tab_bw.jpg" 
+	     alt="images/adl_tab.jpg" width="130" height="65"/>
+	<img src="images/canvas2d_tab_bw.jpg" 
+	     alt="images/canvas2d_tab.jpg" width="130" height="65"/>
+	<img src="images/umlcanvas_tab_bw.jpg" 
+	     alt="images/umlcanvas_tab.jpg" width="130" height="65"/>
+	<img src="images/tmf_tab_bw.jpg" 
+	     alt="images/tmf_tab.jpg" width="130" height="65"/>
+      </div>
+      <div id="banners">
+	<img src="images/adl_banner.jpg" 
+	     alt="ADL Banner" width="800" height="300"/>
+	<img src="images/canvas2d_banner.jpg" 
+	     alt="Canvas2D Banner" width="800" height="300"/>
+	<img src="images/umlcanvas_banner.jpg" 
+	     alt="UmlCanvas Banner" width="800" height="300"/>
+	<img src="images/tmf_banner.jpg" 
+	     alt="TheModelFactory Banner" width="800" height="300"/>
+      </div>
+    </div>
 
-<div style="margin-left: 150">
+    <div id="news">
+      <h1>News from the Factory Floor</h1>
+      <h2>March 2009</h2>
+      <ul>
+	<li>We are pleased to announce the first public release of our first foundation project: <a href="wiki/ADL">Abstract Domain Language</a>.</li>
+      </ul>
+      
+      <h2>February 2009</h2>
+      <ul>
+	<li>At our <a href="pub/">downloads page</a> we now provide the latest public releases of our projects.</li>
+	<li>We also host a public <a href="http://test.thesoftwarefactory.be">test site</a> where we deploy internal releases of our projects. You might catch a glimpse of what is to come over there ...</li>
+      </ul>
+      
+      <h2>January 2009</h2>
+      <ul>
+	<li>Slowly things are taking shape. Not much there yet, but the boilerplate content is slowly being added to our <a href="wiki/">public wiki</a>.</li>
+	<li>Starting the new year, we've set up a public access to the <a href="http://git.thesoftwarefactory.be">public git repositories of TheSoftwareFactory</a>. Check back while we add the first batch of projects real soon now.</li>
+      </ul>
+      
+      <h2>December 2008</h2>
+      <ul>
+	<li>TheSoftwareFactory starts its first public project: <a href="http://themodelfactory.be">TheModelFactory</a>, a wiki about modeling software, focusing on ready to use models and patterns.</li>
+      </ul>
+    </div>
+    
+    <div id="footer">
+      <div id="validation">
+	<a href="http://validator.w3.org/check?uri=referer">
+	  <img src="images/w3c-xhtml.png"
+	       alt="Valid XHTML 1.0 Transitional"/></a>
+	<a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img src="images/w3c-css.png" alt="Valid CSS!" /></a>
+      </div>
+      <a href="contact.html">Contact</a> | 
+      <a href="feedback.html">Feedback</a> | 
+      <a href="help.html">Help</a> | 
+      <a href="map.html">Site Map</a><br/>
 
-<h1>News from the Factory Floor</h1>
+      &copy; 2008-2009 The Software Factory. 
+      <a href="terms.html">Terms &amp; Conditions</a> | 
+      <a href="privacy.html">Privacy Statement</a>
+    </div>
 
-<p>April 2009
-<ul>
-<li>We have so much to tell you ... and now we can ... on our very own <a href="http://blog.thesoftwarefactory.be">blog</a>.
-</ul>
-</p>
+    <script type="text/javascript">
+      <!--
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      -->
+    </script>
+    <script type="text/javascript">
+      <!--
+      try {
+        var pageTracker = _gat._getTracker("UA-393672-10");
+        pageTracker._trackPageview();
+      } catch(err) {}
+      -->
+    </script>
 
-<p>March 2009
-<ul>
-<li>We are pleased to announce the first public release of our first foundation project: <a href="wiki/ADL">Abstract Domain Language</a>.</p>
-</ul>
-</p>
+  </body>
 
-<p>February 2009
-<ul>
-<li>At our <a href="pub/">downloads page</a> we now provide the latest public releases of our projects.</li>
-<li>We also host a public <a href="http://test.thesoftwarefactory.be">test site</a> where we deploy internal releases of our projects. You might catch a glimpse of what is to come over there ...</li>
-</ul>
-</p>
+    <script type="text/javascript">
+      <!--
+      // set some styling from javascript to allow graceful degrading 
+      // when javascript is not available
+      var carouselElem = document.getElementById("carousel");
+      carouselElem.style.position = "relative";
+      carouselElem.style.height = "300px";
+      carouselElem.style.width = "940px";
 
-<p>January 2009
-<ul>
-<li>Slowly things are taking shape. Not much there yet, but the boilerplate content is slowly being added to our <a href="wiki/">public wiki</a>.</li>
-<li>Starting the new year, we've set up a public access to the <a href="http://git.thesoftwarefactory.be">public git repositories of TheSoftwareFactory</a>. Check back while we add the first batch of projects real soon now.</li>
-</ul>
-</p>
+      var banners = 
+          document.getElementById("banners").getElementsByTagName("img");
+      for(var i=0; i<banners.length;i++) {
+          banners[i].style.position = "absolute";
+          banners[i].style.left     = "140px";
+          banners[i].style.top      = "0px";
+          banners[i].setOpacity(0);
+      }
+      var tabs = document.getElementById("tabs").getElementsByTagName("img");
 
-<p>December 2008
-<ul>
-<li>TheSoftwareFactory starts its first public project: <a href="http://themodelfactory.be">TheModelFactory</a>, a wiki about modeling software, focusing on ready to use models and patterns.</li>
-</ul>
-</p>
+      var carousel = new Carousel(banners, tabs, 1000, 3000);
+      carousel.start();
 
-<br><br>
+      var carouselLeft   = getLeft(carouselElem);
+      var carouselTop    = getTop(carouselElem);
+      var carouselRight  = parseInt(carouselElem.style.width) + carouselLeft;
+      var carouselBottom = parseInt(carouselElem.style.height) + carouselTop;
 
-</div>
+      console.log( carouselLeft + ", " + carouselRight );
+      console.log( carouselTop + ", " + carouselBottom );
 
-<hr>
-TheSoftwareFactory is a joint venture between <a href="http://2know.be">2Know BVBA</a>, <a href="http://intodesign.be">IntoDesign BVBA</a> and Bellekens IT.<br>
-You can contact us through <tt>contact (at) thesoftwarefactory (dot) be</tt>.
+      window.onmousemove = function(e) {
+        var pos = this.getXY(e);
+	if( pos.x >= carouselLeft && pos.x <= carouselRight
+	    && pos.y >= carouselTop  && pos.y <= carouselBottom ) 
+        {
+	   carousel.pause();
+	} else {
+	   carousel.proceed();
+	}
+      };
+      
+      -->
+    </script>
 
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-393672-10");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-
-</body>
 </html>
 

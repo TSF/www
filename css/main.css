@@ -1,0 +1,89 @@
+BODY {
+    font:80% arial,helvetica,sans-serif;
+    margin: 25px;
+}
+
+IMG {
+  border: 0px;
+}
+
+A { 
+    color:#333; 
+}
+
+A:hover { 
+    color:#F3A662; 
+}
+
+DIV#carousel {
+    width: 800px;
+    margin-bottom: 10px;
+}
+
+DIV#carousel #tabs {
+    width: 115px;
+}
+
+DIV#carousel #banners IMG {
+    cursor: pointer;cursor: hand;
+}
+
+DIV#carousel #tabs IMG {
+    margin-bottom: 13px;
+    cursor: pointer;cursor: hand;
+}
+
+DIV#news {
+    padding: 10px;
+    width: 920px;
+    background-color: rgb(235,235,235);
+}
+
+DIV#news H1 {
+    font: 150% arial,helvetica,sans-serif;
+    color:#F3A662; 
+}
+
+DIV#news H2 {
+    font:125% arial,helvetica,sans-serif;
+    color:#808184; 
+}
+
+DIV#footer {
+    font: 60% arial, helvetica, sans-serif;
+    text-align: left;
+    margin-top: 10px;
+}
+
+DIV#footer DIV#validation {
+    float:right;
+}
+
+DIV#header {
+    margin-bottom: 10px;
+}
+
+DIV#header DIV#search { 
+    position:absolute; 
+    top:45px; 
+    left:720px; 
+    width: 250px;
+}
+
+DIV#header DIV#search INPUT { 
+    width:150px; 
+    margin-left:20px; 
+}
+
+DIV#header UL.nav { 
+    position: absolute; 
+    top: 50px;
+    left: 115px; 
+    margin: 0px; 
+}
+
+DIV#header UL.nav LI { 
+    display: inline; 
+    float: left; 
+    margin: 0 0 0 1.2em; 
+}
