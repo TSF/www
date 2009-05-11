@@ -15,22 +15,29 @@ A:hover {
     color:#F3A662; 
 }
 
+#myGallery {
+    width: 800px !important;
+    height: 300px !important;
+    border: 0px;
+} 
+
 DIV#carousel {
-    width: 800px;
+    width: 950px;
     margin-bottom: 10px;
 }
 
-DIV#carousel #tabs {
-    width: 115px;
-}
-
-DIV#carousel #banners IMG {
-    cursor: pointer;cursor: hand;
+#tabs {
+    width: 130px;
+    float: left;
+    margin-right: 10px;
 }
 
 DIV#carousel #tabs IMG {
     margin-bottom: 13px;
-    cursor: pointer;cursor: hand;
+}
+
+DIV#carousel .content {
+
 }
 
 DIV#news {
