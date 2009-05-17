@@ -83,13 +83,13 @@ print "</div>";
     <br><br>
     
     <div id="footer">
-      <div id="validation">
+      <!--<div id="validation">
 	<a href="http://validator.w3.org/check?uri=referer">
 	  <img src="../images/w3c-xhtml.png"
 	       alt="Valid XHTML 1.0 Transitional"/></a>
 	<a href="http://jigsaw.w3.org/css-validator/check/referer">
           <img src="../images/w3c-css.png" alt="Valid CSS!" /></a>
-      </div>
+      </div>-->
       <a href="contact.html">Contact</a> | 
       <a href="feedback.html">Feedback</a> | 
       <a href="help.html">Help</a> | 
