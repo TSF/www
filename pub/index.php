@@ -90,14 +90,12 @@ print "</div>";
 	<a href="http://jigsaw.w3.org/css-validator/check/referer">
           <img src="../images/w3c-css.png" alt="Valid CSS!" /></a>
       </div>-->
-      <a href="contact.html">Contact</a> | 
-      <a href="feedback.html">Feedback</a> | 
-      <a href="help.html">Help</a> | 
-      <a href="map.html">Site Map</a><br/>
+      <a href="../contact.html">Contact</a> | 
+      <a href="../map.html">Site Map</a><br/>
 
       &copy; 2008-2009 The Software Factory. 
-      <a href="terms.html">Terms &amp; Conditions</a> | 
-      <a href="privacy.html">Privacy Statement</a>
+      <a href="../terms.html">Terms &amp; Conditions</a> | 
+      <a href="../privacy.html">Privacy Statement</a>
     </div>
 
     <script type="text/javascript">

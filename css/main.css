@@ -36,8 +36,8 @@ DIV#carousel #tabs IMG {
     margin-bottom: 13px;
 }
 
-DIV#carousel .content {
-
+DIV.content {
+  width: 920px;
 }
 
 DIV#news {
@@ -46,12 +46,12 @@ DIV#news {
     background-color: rgb(235,235,235);
 }
 
-DIV#news H1 {
+H1 {
     font: 150% arial,helvetica,sans-serif;
     color:#F3A662; 
 }
 
-DIV#news H2 {
+H2 {
     font:125% arial,helvetica,sans-serif;
     color:#808184; 
 }
