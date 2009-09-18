@@ -1,7 +1,8 @@
 <?php
 
 function get_dists() {
-  $dists = array( "ADL"           => array(),
+  $dists = array( "ProtoJS"       => array(),
+		  "ADL"           => array(),
 		  "ADL-src"       => array(),
 		  "Canvas2D"      => array(),
 		  "Canvas2D-src"  => array(),
