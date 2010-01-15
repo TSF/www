@@ -101,7 +101,7 @@
         <li>Happy New Year! We're starting the year with a special <a href="http://blog.thesoftwarefactory.be/2010/01/shifting-into-a-higher-gear/">2 month period</a>, dedicated entirely to our projects. We're also moving into the Twitter space and use it to publish news on all of our projects.</li>
       </ul>
     
-      <p align="right"><a href="news.html">see older the news...</a></p>
+      <p align="right"><a href="news.html">see older news...</a></p>
     </div>
     
     <div id="footer">
