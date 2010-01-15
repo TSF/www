@@ -90,43 +90,18 @@
     <div id="news">
       <h1>News from the Factory Floor</h1>
 
-      <h2>October 2009</h2>
+<?php 
+
+  include_once 'common.php/inc/TwitterFeed.php';
+
+?>
+      <p align="right"><a href="http://twitter.com/TSF_News">follow us on twitter...</a></p>
+
       <ul>
-        <li>Based on <a href="http://umlcanvas.org">UmlCanvas</a>, we are currently slowly rolling out a new online tool, called <a href="http://hosted.umlcanvas.org">Hosted UmlCanvas</a>, enabling everyone to create, share and include UML diagrams in HTML based content.</li>
+        <li>Happy New Year! We're starting the year with a special <a href="http://blog.thesoftwarefactory.be/2010/01/shifting-into-a-higher-gear/">2 month period</a>, dedicated entirely to our projects. We're also moving into the Twitter space and use it to publish news on all of our projects.</li>
       </ul>
-
-      <h2>September 2009</h2>
-      <ul>
-        <li><a href="wiki/Canvas2D">Canvas2D</a> has been updated to
-      	0.3</li>
-        <li><a href="wiki/UmlCanvas">UmlCanvas</a> has been updated to
-      	0.2</li>
-      </ul>
-
-      <h2>July 2009</h2>
-      <ul>
-        <li>Time to introduce our latest project: <a href="http://blog.thesoftwarefactory.be/2009/07/introducing-protojs/">ProtoJS</a></li>
-        <li><a href="wiki/ADL">Abstract Domain Language</a> has been updated
-        to 0.3</li>
-        </ul>
-
-        <h2>June 2009</h2>
-        <ul>
-          <li>We'll be at <a href="http://codegeneration.net/cg2009"
-            target="_blank">CodeGeneration Conference 2009</a> in
-            Cambridge. We will present a lightning talk or host a BoF. So
-            maybe we run into each other.</li>
-            <li>A <a href="wiki/Presentation:Introducing_UmlCanvas">transcript
-            of our presentation</a> at <a
-            href="http://codegeneration.net/cg2009"
-            target="_blank">CodeGeneration Conference 2009</a> is now online
-            on <a href="wiki/">our public wiki</a>.</li>
-            <li><a href="wiki/ADL">Abstract Domain Language</a> has been
-            updated to 0.2</li>
-
-        </ul>
-
-        <p align="right"><a href="news.html">see all the news...</a></p>
+    
+      <p align="right"><a href="news.html">see older the news...</a></p>
     </div>
     
     <div id="footer">
