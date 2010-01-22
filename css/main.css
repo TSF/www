@@ -57,6 +57,7 @@ H2 {
 }
 
 DIV#footer {
+    width: 940px;
     font: 60% arial, helvetica, sans-serif;
     text-align: left;
     margin-top: 10px;

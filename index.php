@@ -118,6 +118,9 @@
       &copy; 2008-2009 The Software Factory. 
       <a href="terms.html">Terms &amp; Conditions</a> | 
       <a href="privacy.html">Privacy Statement</a>
+
+<a href="http://webuml.org"><img src="http://webuml.org/images/webuml-badge.png" alt="Set UML Free!" style="border-width:0;float:right;vertical-align:middle;"></a>
+
     </div>
 
     <script type="text/javascript">
