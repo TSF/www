@@ -1,0 +1,97 @@
+BODY {
+    font:80% arial,helvetica,sans-serif;
+    margin: 25px;
+}
+
+IMG {
+  border: 0px;
+}
+
+A { 
+    color:#333; 
+}
+
+A:hover { 
+    color:#F3A662; 
+}
+
+#myGallery {
+    width: 800px !important;
+    height: 300px !important;
+    border: 0px;
+} 
+
+DIV#carousel {
+    width: 950px;
+    margin-bottom: 10px;
+}
+
+#tabs {
+    width: 130px;
+    float: left;
+    margin-right: 10px;
+}
+
+DIV#carousel #tabs IMG {
+    margin-bottom: 13px;
+}
+
+DIV.content {
+  width: 920px;
+}
+
+DIV#news {
+    padding: 10px;
+    width: 920px;
+    background-color: rgb(235,235,235);
+}
+
+H1 {
+    font: 150% arial,helvetica,sans-serif;
+    color:#F3A662; 
+}
+
+H2 {
+    font:125% arial,helvetica,sans-serif;
+    color:#808184; 
+}
+
+DIV#footer {
+    width: 940px;
+    font: 60% arial, helvetica, sans-serif;
+    text-align: left;
+    margin-top: 10px;
+}
+
+DIV#footer DIV#validation {
+    float:right;
+}
+
+DIV#header {
+    margin-bottom: 10px;
+}
+
+DIV#header DIV#search { 
+    position:absolute; 
+    top:45px; 
+    left:720px; 
+    width: 250px;
+}
+
+DIV#header DIV#search INPUT { 
+    width:150px; 
+    margin-left:20px; 
+}
+
+DIV#header UL.nav { 
+    position: absolute; 
+    top: 50px;
+    left: 115px; 
+    margin: 0px; 
+}
+
+DIV#header UL.nav LI { 
+    display: inline; 
+    float: left; 
+    margin: 0 0 0 1.2em; 
+}
